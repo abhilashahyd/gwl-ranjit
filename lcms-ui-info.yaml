@@ -1,22 +1,28 @@
 UIInfo:
-- referencePath: "/vehiclefuellingdetails"
+- referencePath: "/legalCases"
   groups:
-    VehicleDetails1:
+    CaseType:
       fields:
-      - vehicleFuellingDetails[0].transactionDate
-    VehicleDetails2:
+      - LegalCase[0].caseType
+    CaseTypeDetails:
       fields:
-      - vehicleFuellingDetails[0].vehicleType.name
-      - vehicleFuellingDetails[0].vehicleRegNo.regNumber
-      - vehicleFuellingDetails[0].vehicleReadingDuringFuelling
-    VehicleDetails3:
-      fields:
-      - vehicleFuellingDetails[0].refuellingStation.name
-      - vehicleFuellingDetails[0].fuelFilled
-      - vehicleFuellingDetails[0].typeOfFuel
-      - vehicleFuellingDetails[0].totalCostIncurred
-      - vehicleFuellingDetails[0].receiptNo
-      - vehicleFuellingDetails[0].receiptDate
+      - LegalCase[0].referenceNo
+      - LegalCase[0].summonDate
+      - LegalCase[0].year
+      - LegalCase[0].caseType
+      - LegalCase[0].plantiffName
+      - LegalCase[0].caseNo
+      - LegalCase[0].plantiffAddress
+      - LegalCase[0].caseDetails
+      - LegalCase[0].year
+      - LegalCase[0].summonDate
+      - LegalCase[0].hearingDate
+      - LegalCase[0].ward
+      - LegalCase[0].hearingDate
+      - LegalCase[0].bench
+      - LegalCase[0].side
+      - LegalCase[0].stamp
+      - LegalCase[0].sectionApplied
   ExternalData:
   - fieldName: vehicleFuellingDetails[0].vehicleType.name
     url: "/egov-mdms-service/v1/_get?moduleName=SWM&masterName=VehicleType&tenantId=mh"
