@@ -3,23 +3,23 @@ UIInfo:
   groups:
     CaseType:
       fields:
-      - LegalCase[0].caseType
+      - legleCases[0].caseType
     CaseTypeDetails:
       fields:
-      - LegalCase[0].referenceNo
-      - LegalCase[0].summonDate
-      - LegalCase[0].year
-      - LegalCase[0].caseType
-      - LegalCase[0].plantiffName
-      - LegalCase[0].caseNo
-      - LegalCase[0].plantiffAddress
-      - LegalCase[0].caseDetails
-      - LegalCase[0].year
-      - LegalCase[0].summonDate
-      - LegalCase[0].hearingDate
-      - LegalCase[0].ward
-      - LegalCase[0].hearingDate
-      - LegalCase[0].bench
-      - LegalCase[0].side
-      - LegalCase[0].stamp
-      - LegalCase[0].sectionApplied
+      - legleCases[0].referenceNo
+      - legleCases[0].summonDate
+      - legleCases[0].year
+      - legleCases[0].caseType
+      - legleCases[0].plantiffName
+      - legleCases[0].caseNo
+      - legleCases[0].plantiffAddress
+      - legleCases[0].caseDetails
+      - legleCases[0].year
+      - legleCases[0].summonDate
+      - legleCases[0].hearingDate
+      - legleCases[0].ward
+      - legleCases[0].hearingDate
+      - legleCases[0].bench
+      - legleCases[0].side
+      - legleCases[0].stamp
+      - legleCases[0].sectionApplied
