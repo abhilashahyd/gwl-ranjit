@@ -18,9 +18,9 @@ paths:
     /legalcase/_search:
       post:
         summary: Get the list of legal cases defined in the system.
-        description: Legal case details list
+        description: legalcase
         tags: 
-          - Legal case
+          - legalcase
         parameters:
           - $ref: "https://raw.githubusercontent.com/egovernments/egov-services/master/docs/common/contracts/v1-0-0.yml#/parameters/requestInfo"
         - $ref: "https://raw.githubusercontent.com/egovernments/egov-services/master/docs/common/contracts/v1-0-0.yml#/parameters/tenantId"
