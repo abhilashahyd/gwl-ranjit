@@ -2,8 +2,8 @@ swagger: '2.0'
 
 info:
   version: "1.0.0"
-  title: eGov Solid Waste Management Masters
-  description: eGov Solid Waste Management Masters manages all the masters belongs to solid waste management tax.
+  title: eGov Legal case management 
+  description: eGov Legal case Management Masters manages all the masters belongs to LCMS.
   contact:
     name: Venkataramana B
     email: venki@egovernments.org
