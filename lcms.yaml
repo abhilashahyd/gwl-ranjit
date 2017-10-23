@@ -26,6 +26,10 @@ info:
 schemes:
   - https
 basePath: '/'
+
+x-ui-info:
+  $ref: https://raw.githubusercontent.com/ranjit-battewad/gwl-ranjit/master/lcms-ui-info.yaml
+  
 x-api-id: 'org.egov.lcms.services'
 x-common-path: 'https://raw.githubusercontent.com/egovernments/egov-services/master/docs/common/contracts/v1-0-0.yml'
 paths:
