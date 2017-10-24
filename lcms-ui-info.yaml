@@ -1,45 +1,46 @@
-UIInfo:
-- referencePath: "/legalcase"
-  groups:
-    CaseType:
-      fields:
-      - legleCases[0].caseType
-    CaseTypeDetails:
-      fields:
-      - legleCases[0].referenceNo
-      - legleCases[0].summonDate
-      - legleCases[0].year
-      - legleCases[0].caseType
-      - legleCases[0].plantiffName
-      - legleCases[0].caseNo
-      - legleCases[0].plantiffAddress
-      - legleCases[0].caseDetails
-      - legleCases[0].year
-      - legleCases[0].summonDate
-      - legleCases[0].hearingDate
-      - legleCases[0].ward
-      - legleCases[0].hearingDate
-      - legleCases[0].bench
-      - legleCases[0].side
-      - legleCases[0].stamp
-      - legleCases[0].sectionApplied
-  SearchResult:
-   rowClickUrlUpdate: /update/vehiclefuellingdetails/{transactionNo}
-    rowClickUrlView: /view/vehiclefuellingdetails/{transactionNo}
-    columns:
-    - id
-    - referenceNo
-    - summonDate
-    - year
-    - caseType
-    - caseNo
-    - caseDetails
-    values:
-    - id
-    - referenceNo
-    - summonDate
-    - year
-    - caseType
-    - caseNo
-    - caseDetails
-    resultObjectName: legleCases
+UIInfo: 
+  - 
+    SearchResult: 
+      columns: 
+        - id
+        - referenceNo
+        - summonDate
+        - year
+        - caseType
+        - caseNo
+        - caseDetails
+      resultObjectName: legleCases
+      rowClickUrlUpdate: "/update/vehiclefuellingdetails/{transactionNo}"
+      rowClickUrlView: "/view/vehiclefuellingdetails/{transactionNo}"
+      values: 
+        - id
+        - referenceNo
+        - summonDate
+        - year
+        - caseType
+        - caseNo
+        - caseDetails
+    groups: 
+      CaseType: 
+        fields: 
+          - "legleCases[0].caseType"
+      CaseTypeDetails: 
+        fields: 
+          - "legleCases[0].referenceNo"
+          - "legleCases[0].summonDate"
+          - "legleCases[0].year"
+          - "legleCases[0].caseType"
+          - "legleCases[0].plantiffName"
+          - "legleCases[0].caseNo"
+          - "legleCases[0].plantiffAddress"
+          - "legleCases[0].caseDetails"
+          - "legleCases[0].year"
+          - "legleCases[0].summonDate"
+          - "legleCases[0].hearingDate"
+          - "legleCases[0].ward"
+          - "legleCases[0].hearingDate"
+          - "legleCases[0].bench"
+          - "legleCases[0].side"
+          - "legleCases[0].stamp"
+          - "legleCases[0].sectionApplied"
+    referencePath: /legalcase
