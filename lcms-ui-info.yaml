@@ -1,25 +1,5 @@
 UIInfo: 
-  - 
-    SearchResult: 
-      columns: 
-        - id
-        - referenceNo
-        - summonDate
-        - year
-        - caseType
-        - caseNo
-        - caseDetails
-      resultObjectName: legleCases
-      rowClickUrlUpdate: "/update/vehiclefuellingdetails/{transactionNo}"
-      rowClickUrlView: "/view/vehiclefuellingdetails/{transactionNo}"
-      values: 
-        - id
-        - referenceNo
-        - summonDate
-        - year
-        - caseType
-        - caseNo
-        - caseDetails
+  - referencePath: /legalcase
     groups: 
       CaseType: 
         fields: 
@@ -43,4 +23,23 @@ UIInfo:
           - "legleCases[0].side"
           - "legleCases[0].stamp"
           - "legleCases[0].sectionApplied"
-    referencePath: /legalcase
+    SearchResult: 
+      rowClickUrlUpdate: "/update/vehiclefuellingdetails/{transactionNo}"
+      rowClickUrlView: "/view/vehiclefuellingdetails/{transactionNo}"
+      columns: 
+        - id
+        - referenceNo
+        - summonDate
+        - year
+        - caseType
+        - caseNo
+        - caseDetails
+      values: 
+        - id
+        - referenceNo
+        - summonDate
+        - year
+        - caseType
+        - caseNo
+        - caseDetails
+      resultObjectName: legleCases
