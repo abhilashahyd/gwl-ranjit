@@ -692,11 +692,6 @@ definitions:
       isVakalatnamaGenerated:
         type: boolean
         description: This filed holds information about the vakalatnama generated or not
-      witness:
-        type: array
-        items:
-          type: string
-        description: array of the witness  names
       coName:
         type: string
         description: This filed holds information about the co name
