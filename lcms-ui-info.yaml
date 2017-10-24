@@ -23,7 +23,7 @@ UIInfo:
           - "legleCases[0].side"
           - "legleCases[0].stamp"
           - "legleCases[0].sectionApplied"
-    SearchResult: 
+    searchResult: 
       rowClickUrlUpdate: "/update/vehiclefuellingdetails/{transactionNo}"
       rowClickUrlView: "/view/vehiclefuellingdetails/{transactionNo}"
       columns: 
