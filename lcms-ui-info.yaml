@@ -23,3 +23,23 @@ UIInfo:
       - legleCases[0].side
       - legleCases[0].stamp
       - legleCases[0].sectionApplied
+   SearchResult:
+     rowClickUrlUpdate: /update/vehiclefuellingdetails/{transactionNo}
+     rowClickUrlView: /view/vehiclefuellingdetails/{transactionNo}
+     columns:
+     - id
+     - referenceNo
+     - summonDate
+     - year
+     - caseType
+     - caseNo
+     - caseDetails
+     values:
+     - id
+     - referenceNo
+     - summonDate
+     - year
+     - caseType
+     - caseNo
+     - caseDetails
+     resultObjectName: legleCases
