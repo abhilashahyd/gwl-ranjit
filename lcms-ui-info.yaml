@@ -24,8 +24,8 @@ UIInfo:
           - "legleCases[0].stamp"
           - "legleCases[0].sectionApplied"
     searchResult: 
-      rowClickUrlUpdate: "/update/vehiclefuellingdetails/{transactionNo}"
-      rowClickUrlView: "/view/vehiclefuellingdetails/{transactionNo}"
+      rowClickUrlUpdate: "/update/legalcase/{id}"
+      rowClickUrlView: "/view/legalcase/{id}"
       columns: 
         - id
         - referenceNo
