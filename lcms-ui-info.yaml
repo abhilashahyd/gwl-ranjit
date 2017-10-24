@@ -1,5 +1,5 @@
 UIInfo: 
-  - referencePath: /legalcase
+  - referencePath: "/legalcase"
     groups: 
       CaseType: 
         fields: 
